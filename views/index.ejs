@@ -12,14 +12,13 @@
     <div class="d-flex flex-column align-items-center justify-content-center w-100" style="height:100vh;">
       <h1>Authentification</h1>
       <div class="d-flex flex-row">
-        <% if (!isAuthenticated) { %>
+        <% if (!user) { %>
           <a href="/users/new" class="mx-3">Inscription</a>
           <a href="/auth/signin/form" class="mx-3">Connexion</a>
           <% } else { %>
             <a href="/auth/signout" class="mx-3">Deconnexion</a>
+            <a href="/protected" class="mx-3">Protected</a>
             <% } %>
-
-
       </div>
     </div>
   </div>

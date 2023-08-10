@@ -6,9 +6,12 @@ const schema = mongoose.Schema;
 const userSchema = schema({
     local: {
         email: { type: String, require: true, unique: true },
-        password: { type: String }
+        password: { type: String },
+        googleId: { type: String },
+        facebookId: { type: String },
     },
     username: String
+   
 });
 
 // Fonction static qui permet le hashage d'un password avant insertion en bdd.
