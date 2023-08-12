@@ -1,9 +1,9 @@
 # Auth_Node
 Mini projet sur l'apprentissage de création de session d'un utilisateur
 
-FRONT : NodeJS - Ejs
+FRONT : NodeJS - Ejs  
 
-BACK : NodeJS - Express
+BACK : NodeJS - Express  
 
-BDD : MongoDB - Mongoose
+BDD : MongoDB - Mongoose  
 
